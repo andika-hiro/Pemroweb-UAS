@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 114px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  color: white;
+  font-family: "Lemon", cursive;
+  font-weight: 200;
+  font-size: 24px;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  cursor: pointer;
+}
+
+.navbar button {
+  width: 114.5px;
+  height: 53px;
+  margin-right: 6rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 724px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin-top: 0;
+}
+
+.headerText h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 64px;
+  width: 610px;
+  padding-left: 4.75rem;
+  padding-top: 14.8rem;
+}
+
+.headerText h1 span {
+  color: #3a18c2;
+  font-weight: 800;
+}
+
+.headerImage {
+  padding-top: 3.25rem;
+  padding-right: 3.43rem;
+}
+
+.testimoni {
+  width: 100%;
+  height: 474px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testiText {
+  padding-top: 72px;
+  padding-left: 89px;
+}
+
+.testiText h1 {
+  color: black;
+  font-weight: 800;
+  font-size: 40px;
+  padding-left: 78px;
+  width: 296px;
+}
+.testiText .descTitle {
+  width: 257px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 78px;
+}
+
+.testiText .descTitle p {
+  color: #737373;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.testiText .descTitle svg {
+  padding-top: 0.8rem;
+}
+
+.card {
+  width: 683px;
+  height: 261px;
+  background-color: #ffffff;
+  display: flex;
+  margin-right: 109px;
+  margin-top: 136px;
+}
+
+.card .cardImage {
+  width: 30%;
+  padding-top: 45px;
+  padding-left: 52px;
+}
+
+.card .cardImage .stars {
+  padding-top: 0.5rem;
+}
+
+.card .cardText {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.card .cardText p {
+  width: 320px;
+
+  color: #737373;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 0%;
+  margin-bottom: 15px;
+}
+
+.card .cardText .profileName h1 {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.card .cardText .profileName p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* rekomendasi kelas */
+.rekomendasiKelas {
+  width: 100%;
+  height: 982px;
+}
+
+.titleRK {
+  padding-top: 98px;
+  padding-left: 84px;
+}
+
+.titleRK h1 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.titleRK p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.parentCard {
+  display: flex;
+  padding-left: 84px;
+  padding-top: 47px;
+}
+
+.cardCourse {
+  width: 395px;
+  height: 540px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-right: 4rem;
+}
+
+.cardCourse .cardCourseText p {
+  font-weight: 800;
+  font-size: 14px;
+  color: #23a6f0;
+  padding-top: 13.25px;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cardCourse .cardCourseText h1 {
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 22px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.cardCourse .cardCourseText h3 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 22px;
+  margin-left: 10px;
+  color: #737373;
+  margin-bottom: 0;
+}
+
+.cardCourse .cardCourseText button {
+  width: 88px;
+  height: 44px;
+  border: 1px solid #23a6f0;
+  color: #23a6f0;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  margin-top: 22px;
+}
+
+/* footer */
+
+.footer {
+  height: 142px;
+  padding-top: 69px;
+}
+
+.footer p span {
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 1px;
+}
+
+.footer .footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 46px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer .footer-text .logo-footer {
+  padding-top: 0.8rem;
+}
+
+.footer .footer-text .logo-footer img {
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
